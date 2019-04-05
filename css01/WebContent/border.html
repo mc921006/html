@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	div {
+		width: 100px; height: 100px;
+		margin: 10px;
+		border-radius: 5px;
+	}
+	div:first-of-type {
+		background: red;
+	}
+	div:nth-of-type(2) {
+		background: green;
+		box-sizing: border-box;
+		border: 5px solid black;
+	}
+	div:last-of-type {
+		background: blue;
+		box-sizing: content-box;
+		border: 5px solid black;
+		margin: 5px;
+	}
+</style>
+</head>
+<body>
+	<div>
+		content1
+	</div>
+	<div>
+		content2
+	</div>
+	<div>
+		content3
+	</div>
+</body>
+</html>

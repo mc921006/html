@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	input[type=text] {
+		color: red;
+	}
+	input:hover, textatrea:hover{
+		background: aliceblue;
+	}
+	input[type=text]:focus, input[type=email]:focus{
+		font-size: 120%;
+	}
+	label {
+		display: block;
+		padding: 5px;
+	}
+	label span{
+		display: inline-block;
+		width: 90px;
+		text-align: right;
+		padding: 10px;
+	}
+</style>
+</head>
+<body>
+	<h3>contact us</h3>
+	<hr>
+	<form>
+		<label>
+			<span>name</span><input type="text" placeholder="앨리스">
+		</label>
+		<label>
+			<span>email</span><input type="email" placeholder="abc@naver.com">
+		</label>
+		<label>
+			<span>comment</span><textarea placeholder="메시지 남겨"></textarea>
+		</label>
+		<label>
+			<span></span><input type="submit" value="확인">
+		</label>
+	</form>
+</body>
+</html>

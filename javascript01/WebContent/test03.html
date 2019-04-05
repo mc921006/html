@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	console.log('가'<'마');
+	console.log(1+2*(2+3));
+	console.log(""== 0);
+	console.log("99"== 99);
+	console.log(0 == false);
+	console.log(""=== false);
+	console.log(0 === false);
+	console.log("99"=== 99);
+	console.log(!true);
+	console.log(!(3>4));
+	console.log(10>5 && 10 <11);
+	console.log(10 > 5 && 10 <10);
+	console.log(2< 1 || 2< 10);
+	console.log(2 < 1 || 2 < -10);
+	var data = 50;
+	var a = 10;
+	var b = 20;
+	var sum = a+b;
+	console.log(data);
+	console.log(sum);
+	var str = 'string';
+	console.log(str);
+	var num = 1234;
+	console.log(num);
+	var isfile = true;
+	console.log(isfile);
+	var myfunc = function(){};
+	console.log(myfunc);
+	var obj = {};
+	console.log(obj);
+	var value = null;
+	console.log(value);
+	var arr = [1,2,3,4,5];
+	console.log(arr);
+	var def;
+	console.log(def);
+	var aa = 20;
+	aa += 10;
+	console.log(aa);
+	var ss ='';
+	ss += '<ul>';
+	ss += '<li>a</li>';
+	ss += '<li>b</li>';
+	ss += '<li>c</li>';
+	ss += '</ul>';
+	console.log(ss);
+	document.write(ss);
+	document.write('<h3>니가 무엇이길래</h3>');
+	document.write('<hr>');
+	document.write('<a href = "login.html">어디로가</a>');
+	var add = function() {
+		var tag = "";
+		tag +="<ul>";
+		tag +="<li>test</li>";
+		tag +="<ul>";
+		document.body.innerHTML += tag;
+	}
+	
+	var name = 'a';
+	console.log(name);
+	var name = 'b';
+	console.log(name);
+	alert('출력');
+	
+	var alert = '재선언';
+	
+	alert('??');
+</script>
+</head>
+<body>
+	<input type="button" value="Tag Change" onclick="add()">
+</body>
+</html>

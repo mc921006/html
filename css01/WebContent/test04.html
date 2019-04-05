@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	h5[title] {background-color: red;}
+	h5[class~=header] {background-color: yellow;}
+	h5[class^=con] {background-color: blue;}
+	h5[class$=esc] {background-color: orange;}
+	h5[class*=tiv] {background-color: purple;}
+	
+	input[type=text] {width: 50px;}
+	input[type=password] {background-color: red;}
+	input[type=tel] {font-size: 30px;}
+	input[type=search] {font-size: italic;}
+</style>
+</head>
+<body>
+	<h5>h5 제목</h5>
+	<h5 title ="제목1">h5 제목1</h5>
+	<h5 class ="title header">h5 제목2</h5>
+	<h5 class ="content">h5 제목3</h5>
+	<h5 class ="desc">h5 제목4</h5>
+	<h5 class ="active">h5 제목5</h5>
+	
+	<input type="text"><br>
+	<input type="password"><br>
+	<input type="tel"><br>
+	<input type="search">
+</body>
+</html>

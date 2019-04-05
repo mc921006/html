@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	div:first-of-type {
+	display: block;
+	background: red;
+}
+	div:nth-of-type(2) {
+	display: inline-block;
+	width : 200px;
+	height : 100px;
+	background: green;
+}
+	div:last-of-type {
+	display: inline;
+	width : 200px; /*적용 안됨*/
+	height : 100px; /*적용 안됨*/
+	background: blue;
+}
+</style>
+</head>
+<body>
+	<div>
+		Contents1
+	</div>
+	<div>
+		Contents2
+	</div>
+	<div>
+		Contents3
+	</div>
+</body>
+</html>

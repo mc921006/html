@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>그룹별 선택 항목을 제공합니다.</h3>
+	<form>
+		<label>전공 분야를 선택하세요.
+		<select name="major">
+			<optgroup label="computer">
+				<option>소프트웨어</option>
+				<option>로봇</option>
+				<option>시스템</option>
+			</optgroup>
+			<optgroup label="language">
+				<option selected>한국어</option>
+				<option>외국어</option>
+				<option>중국어</option>
+				<option>일본어</option>
+			</optgroup>
+			<optgroup label="business">
+				<option>서비스</option>
+				<option>교육</option>
+				<option>협동</option>
+				<option>마케팅</option>
+			</optgroup>
+		</select>
+	</form>
+	<br><br>
+	<form>
+		<label>전공 분야를 입력하세요.
+			<input type="text" list="majorlist" name="major">
+			<datalist id = "majorlist">
+				<option value="Software">소프트웨어</option>
+				<option value="Robot">로봇</option>
+				<option value="System">시스템</option>
+				<option value="Service">서비스</option>
+				<option value="Education">교육</option>
+			</datalist>
+			<br>
+			<input type="submit" value="완료">
+			<input type="reset" value="리셋">
+		</label>
+	</form>
+</body>
+</html>
+
