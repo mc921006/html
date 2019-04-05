@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>iframe을 가지는 웹 페이지</title>
+</head>
+<body>
+	<h3>2 개의 iframe</h3>
+	<hr>
+	<iframe src = "linktest.html" width="200" height="500">
+	</iframe>
+	<iframe src = "http://www.mk.co.kr" width="600" height="500">
+	</iframe>
+	<hr>
+	<h3>iframe 공간 분할</h3>
+	<div style="background-color: #ffff00;">
+		<span>
+			<a href="bitest.html" target="if_a">bi 예제</a>
+		</span>
+		<span>
+			<a href="colortest.html" target="if_a">color 예제</a>
+		</span>
+		<span>
+			<a href="method.html" target="if_a">method 예제</a>
+		</span>
+		<span>
+			<a href="http://www.naver.com" target="if_b">네이버</a>
+		</span>
+	</div>
+	<p/>
+	<iframe src="p116.html" width="400" height="200" name="if_a" 
+	framborder = "0"></iframe>
+	<iframe src="p124.html" width="400" height="200" name="if_b" 
+	scrolling="no"></iframe> 
+</body>
+</html>

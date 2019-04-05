@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	.rec {
+		width: 100px; height: 200px;
+		background-color: red;
+		transition-duration : 1s;
+	}
+	.rec:hover {
+		width: 200px; height: 100px;
+		background-color: yellow;
+		transform:rotate(180deg);
+	}
+	.rec:active {
+		width: 200px; height: 200px;
+		background-color: black;
+		transition-duration : 3s;
+		border-radius: 20px;
+	}
+</style>
+</head>
+<body>
+	<div class="rec"></div>
+</body>
+</html>

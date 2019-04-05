@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	#title{
+		clear: both; /*이전 요소와 줄바꿔서 표시*/
+		float: left; /*왼쪽으로 플로팅*/
+		margin-left: 10px;
+		width: 200px;
+		height: 110px;
+		background-color: orange;
+		border: 1px solid black; /*테두리 1px 검은색 실선*/
+		text-align: center;
+	}
+	#pic1 {
+		clear: none; /*이전 요소와 연결해서 표시*/
+		float: left;
+		margin-left: 40px;
+		width: 200px;
+		height: 110px; 
+	}
+	#pic2 {
+		clear: both;
+		float: left;
+		margin-left: 10px;
+		margin-top: 20px;
+		width: 200px;
+		height: 120px;
+	}
+	#pic3 {
+		clear: none;
+		float: left;
+		margin-left: 40px;
+		margin-top: 120px;
+		width: 200px;
+		height: 120px;
+	}
+</style>
+</head>
+<body>
+	<div id="title"><h2>안녕하세요</h2></div>
+	<div id="pic1"><img src="dog.jpg"></div>
+	<div id="pic2"><img src="dog2.jpg"></div>
+	<div id="pic3"><img src="dog3.jpg"></div>
+</body>
+</html>

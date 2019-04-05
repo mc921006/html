@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	ul li{ /*ul요소 아래의 모든 li요소*/
+		font-size: 16px;
+		line-height: 25px;
+	}
+	/*a 태그 중 href 속성이 있는 곳에 스타일 지정*/
+	a[href] {
+		background: yellow;
+	}
+	/*input태그 중 type="text"인 요소에 스타일 지정*/
+	input[type="text"] {
+		width: 150px;
+		background-color: skyblue;
+		border: 1px solid black;
+	}
+</style>
+</head>
+<body>
+	<section id="container">
+	<header><h1>객실 소개</h1></header>
+	<h3>객실 안내</h3>
+	<ul>
+		<li><a href="test01.html"><b>2인실(유채방,동백방)</b></a></li>
+		<li><a href="test02.html"><b>4인실(펜션)</b></a></li>
+		<input type="text" name="name" id="name">
+	</ul>
+</body>
+</html>

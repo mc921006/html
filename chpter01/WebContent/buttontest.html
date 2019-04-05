@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>버튼 만들기</title>
+</head>
+<body>
+	<form>
+		<h3>당신의 성별은 무엇입니까?</h3>
+		<input type="radio" name="sex" value="male" checked>남자
+		<input type="radio" name="sex" value="female">여자
+		<br>
+		<h3>당신은 몇 학년 입니까?</h3>
+		<input type="radio" name="year" value="1" checked>1학년
+		<input type="radio" name="year" value="2">2학년
+		<input type="radio" name="year" value="3">3학년
+		<input type="radio" name="year" value="4">4학년
+		<br>
+		<input type="submit" value="제출">
+		<input type="reset" value="리셋">
+	</form>
+	<br><hr>
+	<form>
+		<h3>현재 관심을 가지고 있는 학습 주제는 무엇입니까?</h3>
+		<input type="checkbox" name="subject" value="HTML5" checked>HTML5<br>
+		<input type="checkbox" name="subject" value="CSS3">CSS3<br>
+		<input type="checkbox" name="subject" value="JavaScript">JavaScript<br>
+		<input type="checkbox" name="subject" value="JQuery">JQuery
+		<br>
+		<input type="submit" value="제출">
+		<input type="reset" value="리셋">		
+	</form>
+	<br><hr>
+	<form>
+		<h3>button 태그 사용</h3>
+		<button type="button" onclick="alert('클릭-1 사용')">클릭-1</button>
+		<h3>input 태그 사용</h3>
+		<input type="button" onclick="alert('클릭-2 사용')" value="클릭-2">
+		<h3>image 버튼 사용</h3>
+		<button type="button" onclick="alert('클릭-3 사용')"><img src="dog.jpg"></button>
+	</form>
+	<br><hr>
+	<form>
+		검색 : <input type="text" size="10" value="">
+			<input type="button" value="Q1">
+			<button type="button">Q2</button><br>
+		submit 버튼 : <input type="submit" value="전송1">
+					<button type="submit">전송2</button><br>
+		reset 버튼 : <input type="reset" value="리셋1">
+					<button type="reset">리셋2</button><br>
+		이미지 버튼 : <input type="image" src="dog.jpg" alt="이미지 버튼">
+					<button type="button">
+					<img src="dog.jpg" alt="이미지 버튼">
+					</button>
+	</form>
+</body>
+</html>
